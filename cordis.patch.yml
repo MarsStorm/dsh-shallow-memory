@@ -1,0 +1,6 @@
+# dsh-shallow-memory — bundle patch layer.
+# Profile-level tuning lives in the profile's own cordis.patch.yml under
+# `id: shallow-memory`; this file only declares the loader entry.
+- insert:
+    - id: shallow-memory
+      name: 'dsh-shallow-memory'
