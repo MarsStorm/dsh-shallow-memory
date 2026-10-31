@@ -31,8 +31,8 @@
 ## 安装
 
 ```bash
-# 从 GitHub 装（把 <owner> 换成仓库作者）
-dsh plugin --profile web add github:<owner>/dsh-shallow-memory
+# 从 GitHub 装（这就是本仓库的正式地址，直接复制就能用）
+dsh plugin --profile web add github:MarsStorm/dsh-shallow-memory
 
 # 或者本地开发：把目录软链进 profile 的 node_modules，再在 profile 的
 # cordis.patch.yml 里加一条 id: shallow-memory 的配置
